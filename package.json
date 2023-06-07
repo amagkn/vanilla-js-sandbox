@@ -1,0 +1,21 @@
+{
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "type": "module",
+  "name": "vanilla-js-sandbox",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "prettier": "2.8.8"
+  },
+  "dependencies": {
+    "@fastify/static": "^6.10.2",
+    "fastify": "^4.17.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
