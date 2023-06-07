@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/files.css" />
+    <title>Файлы</title>
+  </head>
+  <body>
+    <h1 class="primary-title">Файлы</h1>
+
+    <section class="section">
+      <h2 class="secondary-title">Загрузка файла с прогресс-баром</h2>
+
+      <form id="upload-file-form">
+        <input required type="file" id="upload-file-form_file" />
+        <br />
+        <br />
+        <div><button type="submit">Загрузить</button></div>
+
+        <div>
+          <progress
+            value="0"
+            max="100"
+            class="progress-bar"
+            id="progress-bar"
+          ></progress>
+        </div>
+      </form>
+    </section>
+
+    <script src="js/files.js"></script>
+  </body>
+</html>

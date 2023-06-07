@@ -1,0 +1,27 @@
+body {
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+  color: antiquewhite;
+}
+
+.main-title {
+  text-align: center;
+}
+
+.secondary-title {
+  margin: 0 0 20px;
+}
+
+.section {
+  padding: 15px 10px;
+  border: 1px dashed red;
+}
+
+.progress-bar {
+  margin-top: 15px;
+  width: 100%;
+  display: none;
+}
+
+.progress-bar__on {
+  display: block;
+}
