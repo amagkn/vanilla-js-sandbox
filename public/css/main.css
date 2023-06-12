@@ -13,15 +13,6 @@ body {
 
 .section {
   padding: 15px 10px;
+  margin-bottom: 50px;
   border: 1px dashed red;
-}
-
-.progress-bar {
-  margin-top: 15px;
-  width: 100%;
-  display: none;
-}
-
-.progress-bar__on {
-  display: block;
 }

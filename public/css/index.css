@@ -1,0 +1,11 @@
+@import "main.css";
+
+.progress-bar {
+  margin-top: 15px;
+  width: 100%;
+  display: none;
+}
+
+.progress-bar__on {
+  display: block;
+}
