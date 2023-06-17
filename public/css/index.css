@@ -9,3 +9,55 @@
 .progress-bar__on {
   display: block;
 }
+
+.layout-container {
+  display: flex;
+  height: 800px;
+}
+
+.left-panel {
+  border: 1px solid pink;
+  width: 300px;
+  margin-right: 20px;
+  height: 100%;
+}
+
+.right-panel {
+  width: 100%;
+}
+
+.products-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: calc(100% - 162px);
+}
+
+.product-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-item {
+  width: calc(100% / 6);
+  margin-right: 25px;
+  height: 180px;
+  border: 1px solid pink;
+}
+
+.product-item:last-child {
+  margin-right: 0;
+}
+
+.footer {
+  margin-top: 10px;
+  border: 1px solid pink;
+  height: 150px;
+}
+
+.left-panel:hover,
+.footer:hover,
+.product-item:hover {
+  background-color: pink;
+  cursor: pointer;
+}
